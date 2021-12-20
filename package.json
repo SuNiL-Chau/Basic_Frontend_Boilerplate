@@ -1,0 +1,26 @@
+{
+  "name": "sunil_boilerplate",
+  "version": "1.0.0",
+  "description": "A Simple Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuNiL-Chau/Basic_Frontend_Boilerplate.git"
+  },
+  "keywords": [
+    "Frontend",
+    "Boilerplate",
+    "frontend",
+    "boilerplate",
+    "vanillajs"
+  ],
+  "author": "Sunil Chaudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuNiL-Chau/Basic_Frontend_Boilerplate/issues"
+  },
+  "homepage": "https://github.com/SuNiL-Chau/Basic_Frontend_Boilerplate#readme"
+}

@@ -1,0 +1,21 @@
+// variables
+$font_size_base: 16px;
+$black_1: #000;
+$black_2: #0D0D0D;
+$white: #FFFFFF;
+$gradient: linear-gradient(286deg, #d82f20 0%, #cc5030 20%, #fd824c 47%, #cc5030 80%, #cc5030 100%);
+$gradient2: linear-gradient(264deg, #DF8263 0%, #E18667 14%, #FFBC9F 48%, #D46C49 80%);
+$orange1: #D82F28;
+$orange2: #DF8263;
+$mobile_heading_font: 34px; 
+$mobile_body_font: 20px;
+
+// sass function px to rem
+@function toRem($val) {
+    $remVal: ($val / 16) + rem;
+    @return $remVal;
+}
+
+.bg__dark {
+    background-color: $black_2;
+}
