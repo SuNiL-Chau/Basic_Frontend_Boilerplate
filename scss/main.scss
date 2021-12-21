@@ -81,47 +81,6 @@ button {
 @import "./components/woven-grid";
 @import "./components/footer";
 
-.grad-heading {
-  background: rgb(216, 47, 32);
-  background: $gradient;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  -o-background-clip: text;
-  -o-text-fill-color: transparent;
-  color: transparent;
-  display: inline-block;
-  font-family: "Butler", serif;
-  @include rfs(3.5rem);
-  overflow: hidden;
-}
-
-.section {
-  @include media-bp(xs) {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-  @include media-bp(tablet) {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}
-
-.col-md-10 {
-  @include media-bp(tablet) {
-    max-width: 100%;
-    width: 100%;
-    flex: 0 0 100%;
-  }
-}
-
 .animate-text {
   display: inline-block;
-}
-
-[data-span-img] {
-  position: relative;
-  overflow: hidden;
 }

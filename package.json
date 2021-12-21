@@ -4,7 +4,7 @@
   "description": "A Simple Boilerplate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server -g -b --cros"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/SuNiL-Chau/Basic_Frontend_Boilerplate/issues"
   },
-  "homepage": "https://github.com/SuNiL-Chau/Basic_Frontend_Boilerplate#readme"
+  "homepage": "https://github.com/SuNiL-Chau/Basic_Frontend_Boilerplate#readme",
+  "dependencies": {
+    "http-server": "^14.0.0"
+  }
 }
