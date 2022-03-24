@@ -16,6 +16,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-synthesis: none;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
   &.modal-open {
     padding: 0 !important;
   }
@@ -91,4 +92,15 @@ button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+// remove this later on
+
+[data-barba="container"] {
+  .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
