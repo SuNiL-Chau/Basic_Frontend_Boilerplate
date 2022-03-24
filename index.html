@@ -5,23 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Boilerplate Title</title>
-    <!-- <link rel="shortcut icon" href="assets/insta_post_logo_bg.ico" type="image/x-icon" /> -->
-    <!-- <link rel="preconnect" href="https://unpkg.com" />
-    <link rel="stylesheet" href="css/fonts.min.css" />
+    <!-- <link rel="shortcut icon" href="assets/faivcon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://unpkg.com/">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
-    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
-    <link rel="stylesheet" href="./css/main.min.css" />
-    <link rel="stylesheet" href="./css/home.min.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" /> -->
+    <link rel="stylesheet" href="./dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="./dist/css/main.css" />
+    <link rel="stylesheet" href="./dist/css/pages/home.css" />
   </head>
 
   <body class="home">
     <h1>Boilerplate</h1>
+    <p id="demo">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur facilis eos ad vero nemo deleniti dolore maiores modi numquam a doloribus, error perspiciatis vitae deserunt, cumque optio fuga consectetur aliquid.
+    </p>
+
+    <!-- bootstrap custom lists sidebar toggle -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, tempore delectus? Saepe, consequuntur suscipit facere nihil quaerat cum nisi inventore sed sit, culpa odit, qui iusto cupiditate aliquam odio. Ipsum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, fugit quidem incidunt accusamus, culpa reprehenderit nesciunt porro excepturi deleniti ipsam quas possimus ipsa asperiores in obcaecati corrupti eum nostrum numquam.
+            </div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, tempore delectus? Saepe, consequuntur suscipit facere nihil quaerat cum nisi inventore sed sit, culpa odit, qui iusto cupiditate aliquam odio. Ipsum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, fugit quidem incidunt accusamus, culpa reprehenderit nesciunt porro excepturi deleniti ipsam quas possimus ipsa asperiores in obcaecati corrupti eum nostrum numquam.
+            </div>
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, tempore delectus? Saepe, consequuntur suscipit facere nihil quaerat cum nisi inventore sed sit, culpa odit, qui iusto cupiditate aliquam odio. Ipsum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, fugit quidem incidunt accusamus, culpa reprehenderit nesciunt porro excepturi deleniti ipsam quas possimus ipsa asperiores in obcaecati corrupti eum nostrum numquam.
+            </div>
+            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, tempore delectus? Saepe, consequuntur suscipit facere nihil quaerat cum nisi inventore sed sit, culpa odit, qui iusto cupiditate aliquam odio. Ipsum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, fugit quidem incidunt accusamus, culpa reprehenderit nesciunt porro excepturi deleniti ipsam quas possimus ipsa asperiores in obcaecati corrupti eum nostrum numquam.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- bootstrap custom lists sidebar toggle ends here -->
+
+    <!-- simple Button -->
+    <button>Checkout Repo</button>
+    <!-- simple Button ends here -->
 
     <!-- Jquery & Bootstrap Bundle js -->
-    <!-- <script src="js/libs/jquery-3.5.1.slim.min.js"></script> -->
-    <!-- <script src="js/libs/bootstrap.bundle.min.js"></script> -->
+    <script src="./dist/js/libs/jquery-3.5.1.slim.min.js"></script>
+    <script src="./dist/js/libs/bootstrap.bundle.min.js"></script>
     <!-- GSAP -->
     <!-- <script src="js/libs/gsap.min.js"></script> -->
     <!-- <script src="js/libs/ScrollTrigger.min.js"></script> -->
@@ -32,7 +70,7 @@
     <!-- lazysizes -->
     <!-- <script src="js/libs/lazysizes.min.js"></script> -->
     <!-- Custom main js -->
-    <!-- <script src="./js/main.js"></script>
-    <script src="./js/animations.js"></script> -->
+    <script src="./dist/js/main.js"></script>
+    <!-- <script src="./js/animations.js"></script> -->
   </body>
 </html>

@@ -41,7 +41,9 @@ address {
 
 // img style
 img {
+  -o-object-fit: cover;
   object-fit: cover;
+  -o-object-position: center;
   object-position: center;
 }
 
@@ -63,7 +65,7 @@ a {
 
 button {
   appearance: none;
-  background: transparent;
+  // background: transparent;
   padding: 0;
   margin: 0;
   border: 0;
@@ -83,4 +85,10 @@ button {
 
 .animate-text {
   display: inline-block;
+}
+
+.dd-f {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

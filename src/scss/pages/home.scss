@@ -1,0 +1,21 @@
+@import "../variable";
+@import "../mixin";
+@import "../rfs";
+
+.home {
+  .header {
+  }
+}
+
+@include media-bp(xs) {
+  .home {
+  }
+}
+@include media-bp(tablet) {
+  .home {
+  }
+}
+@include media-bp(tablet_L) {
+  .home {
+  }
+}
